@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_order.css">
+    <title>Restaurant Website</title>
+</head>
+
+<body>
+
+    <body>
+
+        <!-- The NavBar Section Starts Here! -->
+        <section class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/logo3.jpg" alt="logo" class="img-responsive">
+                </div>
+                <div class="menu text-right">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="categories.html">Categories</a>
+                        </li>
+                        <li>
+                            <a href="menu.html">Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </section>
+        <!-- The NavBar Section Ends Here! -->
+
+        <!-- The Food Order Form Starts Here -->
+        <section class="FoodOrderForm">
+            <div class="container">
+                <h2 class="alignCenter" style="margin: 3% 10%;">
+                    Fill this Form to Confirm your Order
+                </h2>
+                <form action="#" class="OrderNow">
+                    <fieldset style="padding: 3% auto;">
+                        <!-- The <fieldset> tag is used to group related elements in a form.
+                        The <fieldset> tag draws a box around the related elements. -->
+                        <legend style="font-size: 20px; font-weight: bold; margin: 2% auto; ">
+                            <!-- The <legend> tag defines a caption for the <fieldset> element. -->
+                            Selected Food
+                        </legend>
+                        <div class="foodMenuBoxImg">
+                            <img src="images/food1.jpg" alt="foodMenuPizza"
+                                class="ImgResponsive imgCurve">
+                        </div>
+                        <div class="foodMenuBoxDescription">
+                            <h4>
+                                Greek Pizza
+                            </h4>
+                            <p class="foodPrice">
+                                Rs.450
+                            </p>
+                            <div class="Quantity">
+                                Quantity
+                            </div>
+                            <input type="number" name="Quantity" class="inputResponsive" value="1" required="">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend style="font-size: 20px; font-weight: bold; margin: 2% auto;">
+                            Delivery Details
+                        </legend>
+                        <!-- Full Name -->
+                        <div class="FormLabel">
+                            Full Name
+                        </div>
+                        <input type="text" name="FullName" class="inputResponsiveDD" placeholder="Eg:Shreya"
+                            required="">
+                        <!-- Phone Number -->
+                        <div class="FormLabel">
+                            Phone Number
+                        </div>
+                        <input type="number" name="PhoneNumber" class="inputResponsiveDD" placeholder="Eg:9529222495"
+                            required="">
+                        <!-- Email -->
+                        <div class="FormLabel">
+                            Email
+                        </div>
+                        <input type="email" name="Email" class="inputResponsiveDD"
+                            placeholder="Eg:shreyavbarad72@gmail.com" required="">
+                        <!-- Address -->
+                        <div class="FormLabel">
+                            Address
+                        </div>
+                        <input type="text" name="Address" class="inputResponsiveDD"
+                            placeholder="Eg:Surana Nagar, Aurangabad, Maharashtra " required="">
+                        <!-- Submit -->
+                        <input type="submit" name="Submit" value="Confirm Order" class="orderButton orderButtonColor">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <!-- The Food Order Form Ends Here -->
+
+        <!--social section starts here-->
+        <section class="social">
+            <div class="container text text-center">
+                <ul>
+                    <li>
+                        <a href="#"><img src="https://img.icons8.com/fluency/48/null/facebook-new.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" /></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/twitter--v1.png" /></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--social section ends here-->
+
+        <!--footer section starts here-->
+        <section class="footer">
+            <div class="container text-center">
+                <p>All rights reserved. Designed by<a href="#"> Gouri Barad</a></p>
+            </div>
+        </section>
+        <!--footer section ends here-->
+
+
+    </body>
+</body>
+
+</html>

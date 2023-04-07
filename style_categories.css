@@ -1,0 +1,137 @@
+*{
+    margin: 0 0;
+    padding:0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.img-responsive{
+    width:100%;
+}
+.img-curve{
+    border-radius: 9px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align:center;
+}
+.clear-fix{
+    clear:both;
+    float:none;
+}
+a{
+    color:rgb(238, 128, 85);
+    text-decoration: none;
+}
+/*pseudo class*/
+a:hover{
+    color: rgb(212, 54, 54);
+}
+.btn{
+    padding:1%;
+    border:none;
+    font-size:1.1rem;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color:rgb(247, 132, 65);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    color:rgb(24, 11, 48)
+}
+h2{
+    color: rgb(29, 27, 27);
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+}
+/*css for navbar*/
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo{
+    border:1px solid red;
+    width:8%;
+    float: left;
+}
+.menu{
+    line-height: 75px;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline ;
+    padding: 1%;
+    font-weight:bold; 
+}
+
+.categories{
+    padding:2% 0;
+}
+.box{
+    width: 28%;
+    float:left;
+    margin:2.5%;
+}
+/*css for social*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 2%;
+}
+/*css for small devices*/
+@media only screen and(max-width:768px) {
+    .logo{
+        width:80%;
+        float:none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width:90%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width:91%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20%;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box{
+        width:90%;
+        margin:4% auto;
+    }
+    .food-menu{
+        padding:20%;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding:5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding:5%;
+    }
+}

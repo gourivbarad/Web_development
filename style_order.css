@@ -1,0 +1,230 @@
+/*
+Author:Gouri Barad
+Theme:Restraunt Food Order
+*/
+/*css for all*/
+*{
+    margin: 0 0;
+    padding:0 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.img-responsive{
+    width:100%;
+}
+.img-curve{
+    border-radius: 9px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align:center;
+}
+.clear-fix{
+    clear:both;
+    float:none;
+}
+a{
+    color:rgb(238, 128, 85);
+    text-decoration: none;
+}
+/*pseudo class*/
+a:hover{
+    color: rgb(212, 54, 54);
+}
+.btn{
+    padding:1%;
+    border:none;
+    font-size:1rem;
+    border-radius: 7px;
+}
+.btn-primary{
+    background-color:rgb(247, 132, 65);
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    color:rgb(24, 11, 48)
+}
+h2{
+    color: rgb(29, 27, 27);
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+}
+
+/*css for navbar*/
+.container{
+    width:80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.logo{
+    border:1px solid red;
+    width:8%;
+    float: left;
+}
+.menu{
+    line-height: 75px;
+}
+.menu ul{
+    list-style-type:none;
+}
+.menu ul li{
+    display: inline ;
+    padding: 1%;
+    font-weight:bold; 
+}
+
+/* Food Order Form */
+.FoodOrderForm{
+    background-image:url(../images/bg3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: middle;
+    padding: 9% 0;
+}
+.alignCenter{
+    text-align: center;
+}
+.foodMenuBoxImg{
+    max-width: 100%;
+    float: left;
+    padding: 2% 3%;
+    height: auto;
+}
+.ImgResponsive{
+    width: 100%;
+    height: 100px;
+}
+.imgCurve{
+    border-radius: 20px;
+}
+.OrderNow{
+    background-color: rgb(247, 167, 92);
+    width: 70%;
+    margin: 0 auto;
+}
+/* Food Menu Description */
+.foodMenuBoxDescription{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.foodMenuBoxDescription h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.foodPrice{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2% 0;
+}
+/* Quantity */
+.inputResponsive{
+    width: 90%;
+    padding: 1%;
+    margin-bottom: 5%;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.inputResponsiveDD{
+    width: 90%;
+    padding: 1%;
+    margin-bottom: 5%;
+    border:none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: auto 3%;
+
+}
+.Quantity{
+    margin-bottom: 1%;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 3% auto;
+    padding: 1%;
+
+}
+.FormLabel{
+    margin-bottom: 1%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1% 3%;
+}
+/* Confirm Order Button */
+.orderButtonColor{
+    background-color: rgb(252, 59, 25);
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.orderButtonColor:hover{
+    background-color: rgb(41, 145, 214);
+    color: white;
+
+}
+.orderButton{
+    padding: 1%;
+    padding: 2% 3%;
+    margin: 2% 40%;
+
+}
+/*css for social*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 2%;
+}
+/*css for small devices*/
+@media only screen and(max-width:768px) {
+    .logo{
+        width:80%;
+        float:none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width:90%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width:91%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20%;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box{
+        width:90%;
+        margin:4% auto;
+    }
+    .food-menu{
+        padding:20%;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding:5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding:5%;
+    }
+}
